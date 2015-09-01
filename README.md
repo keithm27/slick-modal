@@ -10,13 +10,13 @@ Simple centered and animated AngularJS modal dialogs which use animate.css for a
 
 ## Usage
 
-> Load the following scripts into your application
+- Load the following scripts into your application
 
 ```html
 <script type="text/javascript" src="dist/libs/slick-modal.min.js"></script>
 ```
 
-> Load the following stylesheets into your application
+- Load the following stylesheets into your application
 
 ```html
 <link rel="stylesheet" type="text/css" href="dist/libs/slick-modal.min.css">
@@ -46,7 +46,7 @@ angular.module('myApp', ['slick.modal'])
 </div>
 ```
 
-> If you wish to override the styles of a particular modal, apply styles to the sm-id.
+- If you wish to override the styles of a particular modal, apply styles to the sm-id.
 
 > styles.css
 
@@ -60,7 +60,7 @@ angular.module('myApp', ['slick.modal'])
 
 ## Options
 ```
-show (required)               -     Boolean - When true modal is opened, when false modal is closed.
+show (required)               -     Boolean - true (modal open) / false (modal closed).
 close (optional)              -     Can be used to close the modal from another close button and keep the animations.
 
 sm-id (required)              -     The id of the modal, can be used to override styles on a specific modal.
