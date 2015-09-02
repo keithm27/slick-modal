@@ -10,17 +10,19 @@ Simple centered and animated AngularJS modal dialogs which use animate.css for a
 
 ## Usage
 
+- Get the latest version of animate.css
+
 - Load the following scripts into your application
 
 ```html
-<script type="text/javascript" src="dist/libs/slick-modal.min.js"></script>
+<script type="text/javascript" src="src/slickModal.js"></script>
 ```
 
 - Load the following stylesheets into your application
 
 ```html
-<link rel="stylesheet" type="text/css" href="dist/libs/slick-modal.min.css">
-<link rel="stylesheet" type="text/css" href="dist/assets/css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="src/slickModal.css">
+<link rel="stylesheet" type="text/css" href="../animate.min.css">
 ```
 
 > app.js
