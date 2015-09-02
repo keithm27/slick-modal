@@ -2,7 +2,7 @@
 Simple centered and animated AngularJS modal dialogs which use animate.css for animations.
 
 ## Demo
-- [GitHub](http://keithmckiernan.github.io/slick-modal)
+- Demo available here: (http://keithmckiernan.github.io/slick-modal)
 
 ## Requirements
 - [AngularJS](https://angularjs.org/)
@@ -34,7 +34,7 @@ angular.module('myApp', ['slick.modal'])
   $scope.showModal = function() {
     $scope.modalOpen = !$scope.modalOpen;
   };
-})
+});
 ```
 
 > index.html
