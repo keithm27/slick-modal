@@ -36,7 +36,7 @@
         // Store all the data in the parameters object
         $scope.params = { };
 
-        // Center the modal by getting the width / 2 and height / 2
+        // Set the width & height of the modal
         $scope.params.width  = $scope.smWidth || '400px';
         $scope.params.height = $scope.smHeight || '400px';
 
