@@ -37,11 +37,11 @@
         $scope.params = { };
 
         // Center the modal by getting the width / 2 and height / 2
-        $scope.params.width  = $scope.smWidth;
-        $scope.params.height = $scope.smHeight;
+        $scope.params.width  = $scope.smWidth || '400px';
+        $scope.params.height = $scope.smHeight || '400px';
 
         // Set the animation duration
-        $scope.params.animationDuration = $scope.smSpeed;
+        $scope.params.animationDuration = $scope.smSpeed || '0.5s';
 
         // Set the timeout for the modal overlay to close..
         var timeoutSpeed = $scope.params.animationDuration.replace(/[^0-9.]/g,'') * 1000;
@@ -69,5 +69,4 @@
       }
     };
   }
-
 })();
